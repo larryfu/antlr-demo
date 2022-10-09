@@ -1,0 +1,2 @@
+select count(*) from report where scene=1001 and action =11001 group by uid
+order by operationTime  recent 600 sec setting consecutive=1;
